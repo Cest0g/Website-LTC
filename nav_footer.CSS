@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262622;
+    border-bottom-color: #FBBC05;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: #FBBC05;
+    transition-duration: 0.2s;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #FBBC05;
+}
+.navbar li .Contact {
+    color: #FBBC05 ;
+}
+.dropdown_menu li {
+    list-style: none;
+}
+.dropdown_menu a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+.dropdown_menu a:hover {
+    color: #FBBC05;
+    padding-bottom: 1px;
+    border-bottom: 0.5px solid #FBBC05;
+}
+.dropdown_menu .Contact {
+    color: #FBBC05;
+}
+.dropdown_menu .Contact:hover {
+    color: white;
+    border-bottom: white 0.5px solid;
+}
+.navbar li .Contact:hover {
+    color: white ;
+    border-bottom: white solid 0.5px;
+    transition: 0.2s;
+}
+.navbar .logo a {
+    border: none ;
+}
+header {
+    position:sticky;
+    top: 0;
+    padding: 0 2rem;
+    background-color: #262622;
+}
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.actionbutton {
+    color: #FBBC05;
+    border: #FBBC05 .5px solid;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: scale 1s ease;
+    cursor: pointer;
+}
+.actionbutton:hover {
+    color: white;
+    border: white solid .5px ;
+    padding: 8px 24px;
+    border-radius: 20px;
+    scale: 1.1;
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2.5rem;
+    top: 60px;
+    height: 0;
+    width: 150px;
+    background-color: #262622;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: height .05s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu.open {
+    height: 500px;
+}
+.dropdown_menu li {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown_menu .actionbutton {
+    display: flex;
+    width: 200%;
+    justify-content: center;
+}
+@media screen and (max-width: 935px) {
+    .navbar .links,
+    .navbar .actionbutton{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+    }
+    .dropdown_menu {
+        display: block;
+    }
+}
+.footer {
+    width: 100%;
+    height: 605px;
+    max-width: 1800;
+    margin: 0 auto;
+    background-color: #262622;
+    background-image: url(Images/Bottom_nav.png);
+    background-size: 100%;
+    
+}
+.footer h1 {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    max-width: 1800px;
+    padding: 100px 170px;
+    font-size: 4rem;
+    font-weight: 600;
+    
+}
+.footer-grid {
+    margin-top: 50px;
+    padding: 90px 240px;
+    display: flex;
+}
+.footer-column {
+    width: 100%;
+    height: 200px;
+    max-width: 1800px;
+    display: flex;
+    gap: 100px;
+    
+}
+.footer-column .logo {
+    margin-right: -80px;
+    margin-top: 5px;
+}
+.footer-column ul {
+    list-style: none;
+    
+}
+.footer-column p {
+    color: black;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.vragen {
+    text-decoration: none;
+    color: white;
+}
+.footer-column a {
+    text-decoration: none;
+    color:  #262622;
+    display: flex;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.footer-column a:hover {
+    text-decoration: underline 1px;
+}
+.footer .Contact {
+    color: black;
+}
+.foot {
+    display: flex;
+    margin-top: -75px;
+    padding: 10px 200px;
+}

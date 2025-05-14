@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.hero {
+    background: #262622;
+    color: white;
+}
+.homepage {
+    color: white;
+    height: 89.5vh;
+    width: 1922px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 1)
+  ),
+  url('Images/Achtergrond.png');
+}
+.welkom-text {
+    display: block;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.welkom-text h1 {
+    font-size: 5rem;
+    line-height: 80px;
+    text-shadow: 5px 5px 10px black;
+}
+.welkom-text p {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 60px;
+    text-shadow: 3px 3px 5px black ;
+    margin-bottom: 10px;
+}
+.welkom-text .gele-text {
+    color: #fbbc05;
+}
+.welkom-text .reserveer{
+    height: 33px;
+    width: 120px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: white 0.5px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: scale 1s ease;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+}
+.welkom-text .reserveer:hover {
+    color: #fbbc05;
+    padding: 5px 20px;
+    text-align: center;
+    border: #fbbc05 0.5px solid;
+    border-radius: 20px;
+    scale: 1.1;
+}
+.homepage .info-over{
+    display: flex;
+    width: 100%;
+    padding: 0px 680px;
+    margin-top: -60px;
+    gap: 6rem;
+    align-items: center;
+    text-align: left;
+}
+.homepage .reserveren{
+    background-color: #262622;
+    box-shadow: 5px 5px 20px black;
+    height: 180px;
+    width: 300px;
+    text-align: left;
+}
+.homepage .terras{
+    height: 180px;
+    width: 300px;
+    background-color: #262622;
+    box-shadow: 5px 5px 20px black;
+}
+.reserveren img {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.reserveren h3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.reserveren p {
+    padding-left: 20px;
+}
+.terras img {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.terras h3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.terras p{
+    padding-left: 20px;
+}
