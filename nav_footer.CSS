@@ -4,6 +4,7 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    scrollbar-width:none;
 }
 body{
     height: 100%;
@@ -161,7 +162,8 @@ header {
 }
 .footer-grid {
     margin-top: 50px;
-    padding: 90px 240px;
+    padding-top: 90px;
+    padding-left: 240px;
     display: flex;
 }
 .footer-column {
@@ -206,5 +208,8 @@ header {
 .foot {
     display: flex;
     margin-top: -75px;
-    padding: 10px 200px;
+    padding-top: 100px;
+    padding-left: 800px;
+    padding-bottom: -20px;
+    font-size: 0.7rem;
 }
