@@ -1,5 +1,7 @@
-.hero {
-    background: #262622;
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #262622;
     color: white;
 }
 .homepage {
@@ -8,7 +10,7 @@
     width: 1922px;
     align-items: center;
     text-align: center;
-    overflow: hidden;
+    background-size: cover;
     background:
   linear-gradient(
     rgba(38, 38, 34, 0.4),
@@ -112,7 +114,8 @@
     background-color: #262622;
     color: white;
     display: flex;
-    align-items: center;
+    width: 1922px;
+    
 }
 .over-ons-image img {
     padding: 250px 0px 200px 300px;
@@ -122,7 +125,7 @@
 }
 .over-ons-text{
     padding-left: 60px;
-    margin-top: -70px;
+    margin-top: 300px;
     width: 500px;
 }
 .over-ons-text h1 {
@@ -136,4 +139,48 @@
 }
 .over-ons-text .lijnhoogte{
     margin-bottom: -10px;
+}
+.faciliteiten{
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100vw;
+}
+.faciliteiten h1 {
+    display: flex;
+    width: 20px;
+    height: 10px;
+    padding: 80px 870px 0px 840px;
+    font-size: 40px;
+    color: #fbbc05;    
+}
+
+.faciliteiten-container{
+    display: block;
+    
+}
+.faciliteiten-container-top{
+    display: flex;
+    padding-left: 370px;
+    height: 400px;
+    gap: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.faciliteiten-container-bottom{
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 680px;
+    gap: 40px;
+    text-align:center;
+}
+
+.faciliteiten-container-top img{
+
+}
+.faciliteiten-container-bottom img {
+
 }
