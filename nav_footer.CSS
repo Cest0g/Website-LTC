@@ -85,19 +85,20 @@ header {
 .actionbutton {
     color: #FBBC05;
     border: #FBBC05 .5px solid;
-    padding: 8px 24px;
-    border-radius: 20px;
+    position: relative;
+    padding: 6px 24px;
     font-size: 1rem;
     font-weight: bold;
-    transition: scale 1s ease;
+    transition: 1s ease-in-out;
     cursor: pointer;
 }
 .actionbutton:hover {
-    color: white;
-    border: white solid .5px ;
-    padding: 8px 24px;
-    border-radius: 20px;
-    scale: 1.1;
+    color: #FBBC05;
+    border: #FBBC05 solid .5px ;
+    padding: 6px 24px;
+    box-shadow: inset 10rem 0 0 white;
+
+
 }
 .dropdown_menu {
     display: none;

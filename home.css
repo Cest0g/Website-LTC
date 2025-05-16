@@ -43,26 +43,24 @@ body {
     color: #fbbc05;
 }
 .welkom-text .reserveer{
+    background-color: none;
     height: 33px;
     width: 120px;
     text-decoration: none;
     color: white;
     padding: 5px 20px;
     border: white 0.5px solid;
-    border-radius: 20px;
     font-weight: bold;
-    transition: scale 1s ease;
+    transition: 1s;
     cursor: pointer;
-    text-align: center;
-    display: inline-flex;
+    position: relative;
+    display: inline-block;
 }
 .welkom-text .reserveer:hover {
     color: #fbbc05;
     padding: 5px 20px;
-    text-align: center;
     border: #fbbc05 0.5px solid;
-    border-radius: 20px;
-    scale: 1.1;
+    box-shadow: inset 10em 0 0 white;
 }
 .homepage .info-over{
     display: flex;
@@ -151,11 +149,12 @@ body {
     display: flex;
     margin: 0 auto;
     width: 100%;
-    max-width: 208px;
+    max-width: 300px;
     height: 10px;
-    font-size: 40px;
+    font-size: 60px;
     color: #fbbc05;    
     padding-top: 50px;
+
 }
 .faciliteiten-container{
     display: block;
@@ -165,15 +164,15 @@ body {
 }
 .faciliteiten-container-top{
     display: flex;
-    padding-top: 100px;
-    height: 100%;
-    width: 100%;
-    max-width: 900px;
+    padding-top: 140px;
+    height: auto;
+    width: 900px;
+    max-width: 1100px;
 }
 .faciliteiten-container-bottom{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     max-width: 600px;
     gap: 0px;
@@ -189,58 +188,70 @@ body {
 }
 
 .whatsapp {
-    margin: 0 auto;
-    width: 100%;
+    margin: 200px auto;
+    width: 1100px;
     height: 100%;
     max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    padding: 0px;
-    border: 0px;
     padding-bottom: 200px;
 }
-.whatsapp-container{
+.idk {
+    width: 600px;
+    height: 700px;
+    max-width: 900px;
+    object-fit: cover;
     text-align: left;
-    display: flex;
-    padding-top: 20px;
 }
-.whatsapp img {
-    display: flex;
+.whatsapp-text-container{
+    margin: 0 auto;
+    padding-top: 80px;
     width: 500px;
-    height: 800px;
-    background-size: auto;
-}
-.whatsapp h1 {
-    
-}
-.whatsapp h2 {
-    
-}
-.whatsapp h4 {
     height: 100%;
+    max-width: 900px;
+    text-align: center;
 }
-.whatsapp p {
-    height: 20px;
+.whatsapp-text-container h1 {
+    font-size: 60px;
+    padding-bottom: 80px;
+}
+.whatsapp-text-container h2 {
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+.whatsapp-text-container h4 {
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+.whatsapp-text-container p {
+    padding-bottom: 80px;
+    height: 100%;
     width: 100%;
     max-width: 1200px;
+    color: #FFFFFF;
+    opacity: 80%;
 }
-.whatsapp a{
-    color: #FBBC05;
-    border: #FBBC05 .5px solid;
-    padding: 8px 24px;
-    border-radius: 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: scale 1s ease;
-    cursor: pointer;
+.whatsapp-text-container .Deelnemen{
+    display: inline-block;
+    padding: 10px 24px;
+    width: 150px;
+    text-decoration: none;
+    border: #fbbc05 2px solid;
+    color: #fbbc05;
+    border-radius: 0px;
+    transition: 1s;
+    position: relative;
+    background-color: none;
 }
-.whatsapp a:hover {
-    color: white;
-    border: white solid .5px ;
-    padding: 8px 24px;
-    border-radius: 20px;
-    scale: 1.1;
+.whatsapp-text-container .Deelnemen:hover {
+    color: #fbbc05;
+    border: #fbbc05 2px solid;
+    padding: 10px 24px;
+    border-radius: 0px;
+    box-shadow: inset 10em 0 0 0 white;
+    background-color: none;
 }
-
 
 
 
