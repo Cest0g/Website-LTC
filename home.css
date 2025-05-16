@@ -21,12 +21,14 @@ body {
 .welkom-text {
     display: block;
     height: 100%;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .welkom-text h1 {
     font-size: 5rem;
     line-height: 80px;
     text-shadow: 5px 5px 10px #262622;
+    pointer-events: none;
+    user-select: none;
 }
 .welkom-text p {
     font-size: 2rem;
@@ -34,6 +36,8 @@ body {
     line-height: 60px;
     text-shadow: 3px 3px 5px #262622 ;
     margin-bottom: 10px;
+    pointer-events: none;
+    user-select: none;
 }
 .welkom-text .gele-text {
     color: #fbbc05;
@@ -65,9 +69,11 @@ body {
     margin: 0 auto;
     max-width: 600px;
     padding-bottom: 100px;
-    padding-top: 50px;
+    padding-top: 150px;
     gap: 4rem;
     align-items: center;
+    pointer-events: none;
+    user-select: none;
 }
 .homepage .reserveren{
     background-color: #262622;
@@ -96,23 +102,26 @@ body {
     padding-left: 20px;
 }
 .over-ons {
-    background-color: #262622;
+    pointer-events: none;
+    user-select: none;
     color: white;
     display: flex;
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    max-height: 850px;
+    padding-top: 300px;
     
 }
-.over-ons-image img {
-    width: 800px;
+.over-ons-image img{
+    pointer-events: none;
+    user-select: none;
+    width: 600px;
     height: 600px;
     object-fit: cover;
-    margin-top: 300px;
 }
 .over-ons-text{
     padding-left: 60px;
-    margin-top: 300px;
     width: 500px;
 }
 .over-ons-text h1 {
@@ -128,8 +137,10 @@ body {
     margin-bottom: -10px;
 }
 .faciliteiten{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    pointer-events: none;
+    user-select: none;
+    padding-top: 460px;
+    padding-bottom: 330px;
     color: white;
     margin: 0 auto;
     align-items: center;
@@ -144,6 +155,7 @@ body {
     height: 10px;
     font-size: 40px;
     color: #fbbc05;    
+    padding-top: 50px;
 }
 .faciliteiten-container{
     display: block;
@@ -153,18 +165,20 @@ body {
 }
 .faciliteiten-container-top{
     display: flex;
-    margin-top: 100px;
-    height: 150px;
+    padding-top: 100px;
+    height: 100%;
     width: 100%;
     max-width: 900px;
 }
 .faciliteiten-container-bottom{
     display: flex;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     max-width: 600px;
     gap: 0px;
     padding-left: 88px;
+    padding-top: 50px
 }
 
 .faciliteiten .container-racket{
@@ -172,4 +186,109 @@ body {
 }
 .faciliteiten .container{
     line-height: 20px;
+}
+
+.whatsapp {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+    padding-bottom: 200px;
+}
+.whatsapp-container{
+    text-align: left;
+    display: flex;
+    padding-top: 20px;
+}
+.whatsapp img {
+    display: flex;
+    width: 500px;
+    height: 800px;
+    background-size: auto;
+}
+.whatsapp h1 {
+    
+}
+.whatsapp h2 {
+    
+}
+.whatsapp h4 {
+    height: 100%;
+}
+.whatsapp p {
+    height: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+.whatsapp a{
+    color: #FBBC05;
+    border: #FBBC05 .5px solid;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: scale 1s ease;
+    cursor: pointer;
+}
+.whatsapp a:hover {
+    color: white;
+    border: white solid .5px ;
+    padding: 8px 24px;
+    border-radius: 20px;
+    scale: 1.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 935px) {
+    .over-ons{
+    margin: 0 auto;
+    text-align: left;
+    }
+    .over-ons-image img{
+        padding-left: 20px;
+        width: 100%;
+        height: 400px;
+        max-width: 400px;
+        margin-right: -20px;
+    }
+    .over-ons-text p{
+        width: 100%;
+        max-width: 400px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .faciliteiten {
+        margin-top: -150px;
+    }
+
 }
