@@ -97,7 +97,6 @@ header {
     border-radius: 20px;
     scale: 1.1;
 }
-
 .dropdown_menu {
     display: none;
     position: absolute;
@@ -137,39 +136,41 @@ header {
     }
 }
 .footer {
-    width: 1922px;
-    height: 605px;
-    max-width: 1800;
-    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 2000px;
+    margin: 0px auto;
     background-color: #262622;
     background-image: url(Images/Bottom_nav.png);
-    background-size: cover;
-    
+    background-size: cover;  
+    text-align: center;
 }
 .footer h1 {
     display: flex;
     height: 50px;
     width: 100%;
-    max-width: 1800px;
+    max-width: 1000px;
     padding: 100px 170px;
     font-size: 4rem;
-    font-weight: 600;
-    
+    font-weight: 600; 
+    color: black; 
 }
 .footer-grid {
     margin-top: 50px;
     padding-top: 90px;
-    padding-left: 240px;
+    padding-left: 160px;  
     display: flex;
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
+    text-align: left;
 }
 .footer-column {
     width: 100%;
     height: 200px;
-    max-width: 1800px;
+    max-width: 900px;
     display: flex;
-    gap: 100px;
-    
+    gap: 100px;  
 }
 .footer-column .logo {
     margin-right: -80px;
@@ -192,7 +193,6 @@ header {
 .footer-column a {
     text-decoration: none;
     color:  #262622;
-    display: flex;
     font-size: 18px;
     padding-top: 5px;
 }
@@ -203,10 +203,9 @@ header {
     color: black;
 }
 .foot {
-    display: flex;
-    margin-top: -75px;
-    padding-top: 100px;
-    padding-left: 800px;
-    padding-bottom: -20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 0.7rem;
+    color: #262622;
+    align-items: center;
 }

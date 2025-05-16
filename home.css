@@ -7,7 +7,7 @@ body {
 .homepage {
     color: white;
     height: 89.5vh;
-    width: 1922px;
+    margin: 0 auto  ;
     align-items: center;
     text-align: center;
     background-size: cover;
@@ -22,9 +22,6 @@ body {
 .welkom-text {
     display: block;
     height: 500px;
-    width: 100%;
-    align-items: center;
-    text-align: center;
     padding-top: 100px;
 }
 .welkom-text h1 {
@@ -66,12 +63,11 @@ body {
 }
 .homepage .info-over{
     display: flex;
-    width: 100%;
-    padding: 0px 680px;
+    margin: 0 auto;
+    max-width: 700px;
     margin-top: -60px;
     gap: 6rem;
     align-items: center;
-    text-align: left;
 }
 .homepage .reserveren{
     background-color: #262622;
@@ -85,43 +81,34 @@ body {
     width: 300px;
     background-color: #262622;
     box-shadow: 5px 5px 20px black;
+    text-align: left;
 }
-.reserveren img {
+.info-over img {
     margin-left: 20px;
     margin-bottom: 5px;
     margin-top: 20px;
 }
-.reserveren h3 {
+.info-over h3 {
     padding-left: 20px;
     padding-bottom: 10px;
 }
-.reserveren p {
-    padding-left: 20px;
-}
-.terras img {
-    margin-left: 20px;
-    margin-bottom: 5px;
-    margin-top: 20px;
-}
-.terras h3 {
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-.terras p{
+.info-over p {
     padding-left: 20px;
 }
 .over-ons {
     background-color: #262622;
     color: white;
     display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
     width: 1922px;
     
 }
 .over-ons-image img {
-    padding: 250px 0px 200px 300px;
-    width: 1000px;
-    height: 1100px;
+    width: 800px;
+    height: 600px;
     object-fit: cover;
+    margin-top: 300px;
 }
 .over-ons-text{
     padding-left: 60px;
@@ -141,46 +128,47 @@ body {
     margin-bottom: -10px;
 }
 .faciliteiten{
+    padding-top: 100px;
     color: white;
+    margin: 0 auto;
     align-items: center;
     text-align: center;
     height: 100%;
-    width: 100vw;
 }
 .faciliteiten h1 {
     display: flex;
-    width: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 208px;
     height: 10px;
-    padding: 80px 870px 0px 840px;
     font-size: 40px;
     color: #fbbc05;    
 }
-
 .faciliteiten-container{
     display: block;
-    
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
 }
 .faciliteiten-container-top{
     display: flex;
-    padding-left: 370px;
-    height: 400px;
-    gap: 0px;
-    align-items: center;
-    text-align: center;
+    margin-top: 100px;
+    height: 150px;
+    width: 100%;
+    max-width: 900px;
 }
-
 .faciliteiten-container-bottom{
     display: flex;
-    align-items: center;
-    padding-top: 0px;
-    padding-left: 680px;
-    gap: 40px;
-    text-align:center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    gap: 0px;
+    padding-left: 88px;
 }
 
-.faciliteiten-container-top img{
-
+.faciliteiten .container-racket{
+    margin-left: -30px;
 }
-.faciliteiten-container-bottom img {
-
+.faciliteiten .container{
+    line-height: 20px;
 }
