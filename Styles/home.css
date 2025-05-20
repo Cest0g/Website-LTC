@@ -6,7 +6,7 @@ body {
 }
 .homepage {
     color: white;
-    height: 100%;
+    height: 90vh;
     margin: 0 auto  ;
     align-items: center;
     text-align: center;
@@ -16,11 +16,11 @@ body {
     rgba(38, 38, 34, 0.4),
     rgba(38, 38, 34, 1)
   ),
-  url('Images/Achtergrond.png');
+  url(/Images/Achtergrond.png);
 }
 .welkom-text {
     display: block;
-    height: 100%;
+    height: 500px;
     padding-top: 100px;
 }
 .welkom-text h1 {
@@ -43,13 +43,15 @@ body {
     color: #fbbc05;
 }
 .welkom-text .reserveer{
+    text-align: center;
     background-color: none;
     height: 33px;
     width: 120px;
     text-decoration: none;
-    color: white;
-    padding: 5px 20px;
-    border: white 0.5px solid;
+    color: #fbbc05;
+    padding: 6px 20px;
+    border: #fbbc05 2px solid;
+    border-radius: 10px;
     font-weight: bold;
     transition: 1s;
     cursor: pointer;
@@ -57,17 +59,16 @@ body {
     display: inline-block;
 }
 .welkom-text .reserveer:hover {
-    color: #fbbc05;
-    padding: 5px 20px;
-    border: #fbbc05 0.5px solid;
-    box-shadow: inset 10em 0 0 white;
+    color: #fbbd059d;
+    border: #fbbd059d  solid 2px ;
+    padding: 6px 20px;
+    border-radius: 10px;
 }
 .homepage .info-over{
     display: flex;
     margin: 0 auto;
     max-width: 600px;
     padding-bottom: 100px;
-    padding-top: 150px;
     gap: 4rem;
     align-items: center;
     pointer-events: none;
@@ -175,7 +176,6 @@ body {
     height: auto;
     margin: 0 auto;
     max-width: 600px;
-    gap: 0px;
     padding-left: 88px;
     padding-top: 50px
 }
@@ -239,17 +239,16 @@ body {
     text-decoration: none;
     border: #fbbc05 2px solid;
     color: #fbbc05;
-    border-radius: 0px;
+    border-radius: 10px;
     transition: 1s;
     position: relative;
     background-color: none;
 }
 .whatsapp-text-container .Deelnemen:hover {
-    color: #fbbc05;
-    border: #fbbc05 2px solid;
+    color: #fbbd059d;
+    border: #fbbd059d solid 2px ;
     padding: 10px 24px;
-    border-radius: 0px;
-    box-shadow: inset 10em 0 0 0 white;
+    border-radius: 10px;
     background-color: none;
 }
 
@@ -281,25 +280,87 @@ body {
 
 
 @media screen and (max-width: 935px) {
+
+    /* Over ons */
+
     .over-ons{
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -140px;
     }
     .over-ons-image img{
-        padding-left: 20px;
-        width: 100%;
-        height: 400px;
-        max-width: 400px;
-        margin-right: -20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 250px;
+        max-width: 600px;
     }
     .over-ons-text p{
-        width: 100%;
-        max-width: 400px;
-        font-size: 10px;
-        line-height: 15px;
+        text-align: left;
+        width: 500px;
+        max-width: 700px;
+        font-size: 1em;
+        line-height: 1.5em;
     }
+
+
+    /* Faciliteiten */
+
+
+
+
     .faciliteiten {
-        margin-top: -150px;
+        margin: 100px auto;
+        text-align: center;
     }
+    .faciliteiten-container{
+        margin: 0 auto;
+        max-width: 650px;
+        display: inline-block;
+    }
+    .container img{
+        margin: 0 auto;
+        width: 30%;
+        max-width: 100%;
+    }
+    .container-racket img{
+        width: 31%;
+    }
+    .container-padel img{
+        width: 40%;
+    }
+
+
+    /* Whatsapp */
+
+    .whatsapp {
+        margin: 0 auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+    .idk {
+        margin: 100px auto;
+        height: 250px;
+        width: 500px;
+        max-width: 600px;
+        object-fit: cover;
+    }
+    .whatsapp-text-container {
+        height: 100%;
+        width: 400px;
+        max-width: 500px;
+        text-align: center;
+        padding: 0px;
+        margin: -50px auto;
+        font-size: 1em;
+        line-height: 20px;
+    }
+    .whatsapp-text {
+        padding-bottom: 0px;
+    }
+
 
 }
