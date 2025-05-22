@@ -65,28 +65,35 @@ body {
     border-radius: 10px;
 }
 .homepage .info-over{
+    background-color: #262622;
     display: flex;
-    margin: 0 auto;
-    max-width: 600px;
-    padding-bottom: 100px;
-    gap: 4rem;
-    align-items: center;
+    margin: 150px auto;
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 0px;
+    gap: 13rem;
+    border-radius: 2rem 2rem 0 0;
+    text-align: center;
     pointer-events: none;
     user-select: none;
 }
 .homepage .reserveren{
+    margin: 10px auto;
     background-color: #262622;
     box-shadow: 5px 5px 20px #262622;
-    height: 180px;
-    width: 300px;
-    text-align: left;
+    height: 300px;
+    width: 220px;
+    text-align: center;
+    margin-right: 0px;
 }
 .homepage .terras{
-    height: 180px;
-    width: 300px;
+    margin: 10px auto;
+    height: 110%;
+    width: 220px;
+    margin-left: 0px;
     background-color: #262622;
     box-shadow: 5px 5px 20px #262622;
-    text-align: left;
+    text-align: center;
 }
 .info-over img {
     margin-left: 20px;
