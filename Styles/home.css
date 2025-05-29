@@ -6,14 +6,14 @@ body {
 }
 .homepage {
     color: white;
-    height: 90vh;
-    margin: 0 auto  ;
+    height: 85vh;
+    margin: auto  ;
     align-items: center;
     text-align: center;
     background-size: cover;
     background:
   linear-gradient(
-    rgba(38, 38, 34, 0.4),
+    rgba(38, 38, 34, 0.5),
     rgba(38, 38, 34, 1)
   ),
   url(/Images/Achtergrond.png);

@@ -1,9 +1,10 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'arial';
+    font-family: "Raleway", sans-serif;
     scrollbar-width:none;
 }
 body {
@@ -209,9 +210,14 @@ header {
 .foot {
     margin: 0 auto;
     padding-top: 100px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     font-size: 0.7rem;
     color: #262622;
+}
+.foot hr {
+    border-top: black 1px solid;
+    padding-bottom: 10px;
+
 }
 @media screen and (max-width: 935px) {
     .footer-column{
