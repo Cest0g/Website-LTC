@@ -55,7 +55,6 @@ body {
     font-weight: bold;
     transition: 1s;
     cursor: pointer;
-    position: relative;
     display: inline-block;
 }
 .welkom-text .reserveer:hover {
@@ -200,7 +199,6 @@ body {
     height: 100%;
     max-width: 1400px;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
     padding-bottom: 200px;
 }
@@ -236,8 +234,7 @@ body {
     height: 100%;
     width: 100%;
     max-width: 1200px;
-    color: #FFFFFF;
-    opacity: 80%;
+    color: rgba(255, 255, 255, 0.6);
 }
 .whatsapp-text-container .Deelnemen{
     display: inline-block;
@@ -248,15 +245,12 @@ body {
     color: #fbbc05;
     border-radius: 10px;
     transition: 1s;
-    position: relative;
-    background-color: none;
 }
 .whatsapp-text-container .Deelnemen:hover {
     color: #fbbd059d;
     border: #fbbd059d solid 2px ;
     padding: 10px 24px;
     border-radius: 10px;
-    background-color: none;
 }
 
 

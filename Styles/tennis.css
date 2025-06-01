@@ -75,21 +75,24 @@ font-size: 4em;
     margin: 100px auto;
     max-width: 700px;
 }
-
-
-
-
-
-.tarieven-tennis {
+.tarieven {
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 50px;
     text-align: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    background-color: #ffffffff;
+    color: black;
 }
-.tarieven-tennis h1 {
+.tarieven-tennis-tabel a {
+    color: black;
+}
+.tarieven h1 {
     text-align: center;
-    color: white;
+    color: black;
     width: 100%;
     font-size: 2em;
     font-weight: 600;
@@ -98,18 +101,79 @@ font-size: 4em;
     margin: 10px auto;
     border-collapse: collapse;
     text-align: center;
-    width: 60%;
+    width: 800px;
+    max-width: 1200px;
     font-size: 1.2em;
 }
 .tarieven-tennis-tabel th,td {
     text-align: left;
     padding: 12px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+    color: black;
 }
 .tarieven-tennis-tabel th {
     background-color: black;
     border: none;
+    color: white;
 }
-.tarieven-tennis i {
+.tarieven p {
     font-size: 0.7em;
+    font-style: italic;
 }
+.tarieven-baan {
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+.tarieven-baan h1 {
+    color: white;
+}
+.tarieven-baan td {
+    color: white;
+}
+.tarieven-baan a {
+    color: white;
+}
+.tarieven-baan th {
+    background-color: white;
+    color: black;
+}
+.training { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    height: 90vh;
+    max-width: 1200px;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+}
+.training img {
+    width: 550px;
+    height: 500px;
+}
+.training-text {
+    text-align: left;
+}
+
+.rolstoel-tennis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    height: 90vh;
+    max-width: 1200px;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+}
+.rolstoel-tennis img {
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
+}
+.rolstoel-text {
+    text-align: left;
+}
+
