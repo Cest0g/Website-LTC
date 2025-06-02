@@ -1,0 +1,176 @@
+body {
+    background-color: #262622;
+    font-family: "raleway", sans-serif;
+}
+
+.landing {
+    margin: auto;
+    font-size: 3em;
+    width: 100%;
+    height: 50vh;
+    background: 
+    linear-gradient(
+    rgba(38, 38, 34, 1),
+    rgba(38, 38, 34, 0.2)
+    ),
+    url(/Images/padel-achtergrond.jpg);
+    background-size: cover;
+    background-position: left;
+    color: white;
+    text-align: center;
+}
+.padel-text {
+    padding-top: 200px;
+    text-shadow: #262622 5px 5px 10px;
+}
+.soort-baan {
+    font-size: 1em;
+    display: flex;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    max-width: 800px;
+}
+.padel-about hr {
+    border-top: rgba(0, 0, 0, 0.5) 1px solid;
+    margin-top: -10px;
+}
+.baan{
+    font-size: 1.1em;
+    margin: auto;
+    padding-top: 20px;
+    height: 70px;
+    width: 100%;
+    max-width: 300px;
+}
+.baan-gras{
+
+}
+.padel-about {
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+.padel-about h1 {
+font-size: 4em;
+}
+.text-left p,a {
+    padding-top: 25px;
+    font-size: 1.0em;
+    color: white;
+    line-height: 30px;
+    text-align: left;
+}
+.text-left a{
+    text-decoration: none;
+    color: orangered;
+}
+.text-left a:hover,a:focus{
+    text-decoration: solid;
+}
+
+.padel-about .text-left{
+    font-size: 1.5em;
+    line-height: 80px;
+    margin: 100px auto;
+    max-width: 700px;
+}
+.tarieven {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    background-color: #ffffffff;
+    color: black;
+}
+.tarieven-padel-tabel a {
+    color: black;
+}
+.tarieven h1 {
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+}
+.tarieven-padel-tabel {
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 800px;
+    max-width: 1200px;
+    font-size: 1.2em;
+}
+.tarieven-padel-tabel th,td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.tarieven-padel-tabel th {
+    background-color: black;
+    border: none;
+    color: white;
+}
+.tarieven p {
+    font-size: 0.7em;
+    font-style: italic;
+}
+.tarieven-baan {
+    background-color: black;
+    align-items: center;
+    color: white;
+    
+}
+.tarieven-baan h1 {
+    color: white;
+}
+.tarieven-baan td,th {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.tarieven-baan a {
+    color: white;
+}
+.tarieven-baan th {
+    background-color: white;
+    color: black;
+}
+.training { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    height: 90vh;
+    max-width: 1200px;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+}
+.training img {
+    width: 550px;
+    height: 500px;
+}
+.training-text {
+    text-align: left;
+}
+.training-text a {
+    color: #FBBC05;
+    text-decoration: none;
+    line-height: normal;
+}
+.training-text a:hover {
+    text-decoration: underline;
+    line-height: normal;
+}
+.training-text h1 {
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+
